@@ -27,7 +27,7 @@ namespace Relay
             }
             else
             {
-                Globals.RibbonTabName = "Relay";
+                Globals.RibbonTabName = "ArchiUS";
             }
 
             // subscribe to ribbon click events
