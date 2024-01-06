@@ -74,7 +74,7 @@ namespace Relay
 
 
             //add our setup panel and button
-            var setupRibbonPanel = a.CreateRibbonPanel(Globals.RibbonTabName, "Setup");
+            //var setupRibbonPanel = a.CreateRibbonPanel(Globals.RibbonTabName, "Setup");
 
             //if the about exists in the relay graphs location, use it, if not use the resource
             string localAboutImage = Path.Combine(Globals.RelayGraphs, "About_16.png");
