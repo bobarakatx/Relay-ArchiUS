@@ -37,7 +37,7 @@ namespace Relay.Utilities
 
                 string tooltip = GetDescription(fInfo);
 
-                string buttonName = $"relay{fInfo.Name.Replace(" ", "")}";
+                string buttonName = $"archius{fInfo.Name.Replace(" ", "")}";
                 PushButtonData newButtonData = new PushButtonData(buttonName,
                     fInfo.Name.GenerateButtonText(),
                     Path.Combine(Globals.ExecutingPath, "Relay.dll"), "Relay.Run")
